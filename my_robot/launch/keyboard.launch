@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<launch>
+ <include file="$(find my_robot)/launch/robot_description.launch"/>
+  <!--Turtlebot Teleop-->
+  <node pkg="teleop_twist_keyboard" type="teleop_twist_keyboard.py" name="teleop_twist_keyboard"  output="screen">
+    <param name="scale_linear" value="0.5" type="double"/>
+    <param name="scale_angular" value="1.5" type="double"/>
+    <remap from="teleop_twist_keyboard/cmd_vel" to="cmd_vel_mux/input/teleop"/>
+  </node>
+
+</launch>

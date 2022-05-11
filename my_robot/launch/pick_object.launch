@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<launch>
+
+ <!-- The Pick Objects node -->
+  <node name="pick_objects" pkg="pick_objects" type="pick_objects" output="screen"/>
+
+</launch>
