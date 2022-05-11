@@ -1,0 +1,33 @@
+ object_pick_location:
+  tx: 0.0
+  ty: 2.5  # object pick up distance location within robot enviroment
+  tz: 0.0
+  qx: 0.0
+  qy: 0.0
+  qz: 0.0
+  qw: 2.0
+ 
+  object_pick_location2:
+  tx: 0.0
+  ty: 3.0  # object pick up distance location within robot enviroment
+  tz: 0.0
+  qx: 0.0
+  qy: 0.0
+  qz: 0.0
+  qw: 2.0
+ 
+   
+ object_drop_location:
+  tx: -1.0  # object pose.
+  ty: -1.0 # object drop off distance location within robot enviroment
+  tz: 0.0
+  qx: 0.0
+  qy: 0.0
+  qz: 0.0
+  qw: 2.0
+  
+  
+ 
+  
+  
+  
